@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200629\obj\Debug\20200629_001.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200629\obj\Debug\20200629_001.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200629\bin\Debug\20200629.exe.config
+C:\Users\admin\source\repos\20200629\bin\Debug\20200629.exe
+C:\Users\admin\source\repos\20200629\bin\Debug\20200629.pdb
+C:\Users\admin\source\repos\20200629\obj\Debug\20200629.exe
+C:\Users\admin\source\repos\20200629\obj\Debug\20200629.pdb

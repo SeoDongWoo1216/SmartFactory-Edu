@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\FactorySample\bin\Debug\FactorySample.exe.config
+C:\Users\admin\source\repos\FactorySample\bin\Debug\FactorySample.exe
+C:\Users\admin\source\repos\FactorySample\bin\Debug\FactorySample.pdb
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.Properties.Resources.resources
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.exe
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.pdb
+C:\Users\admin\source\repos\FactorySample\obj\Debug\FactorySample.FactorySample.resources

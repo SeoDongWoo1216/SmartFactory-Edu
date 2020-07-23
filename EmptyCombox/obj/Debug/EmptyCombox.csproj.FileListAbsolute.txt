@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\EmptyCombox\bin\Debug\EmptyCombox.exe.config
+C:\Users\admin\source\repos\EmptyCombox\bin\Debug\EmptyCombox.exe
+C:\Users\admin\source\repos\EmptyCombox\bin\Debug\EmptyCombox.pdb
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.Form1.resources
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.Properties.Resources.resources
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.exe
+C:\Users\admin\source\repos\EmptyCombox\obj\Debug\EmptyCombox.pdb

@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\200722_002\bin\Debug\200722_002.exe.config
+C:\Users\admin\source\repos\200722_002\bin\Debug\200722_002.exe
+C:\Users\admin\source\repos\200722_002\bin\Debug\200722_002.pdb
+C:\Users\admin\source\repos\200722_002\obj\Debug\200722_002.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\200722_002\obj\Debug\200722_002.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\200722_002\obj\Debug\200722_002.exe
+C:\Users\admin\source\repos\200722_002\obj\Debug\200722_002.pdb

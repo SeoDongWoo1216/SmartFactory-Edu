@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200525_003\bin\Debug\20200525_003.exe.config
+C:\Users\admin\source\repos\20200525_003\bin\Debug\20200525_003.exe
+C:\Users\admin\source\repos\20200525_003\bin\Debug\20200525_003.pdb
+C:\Users\admin\source\repos\20200525_003\obj\Debug\20200525_003.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200525_003\obj\Debug\20200525_003.exe
+C:\Users\admin\source\repos\20200525_003\obj\Debug\20200525_003.pdb

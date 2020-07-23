@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\20200701_WinForm\bin\Debug\20200701_WinForm.exe.config
+C:\Users\admin\source\repos\20200701_WinForm\bin\Debug\20200701_WinForm.exe
+C:\Users\admin\source\repos\20200701_WinForm\bin\Debug\20200701_WinForm.pdb
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\_20200701_WinForm.Properties.Resources.resources
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\20200701_WinForm.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\20200701_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\20200701_WinForm.exe
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\20200701_WinForm.pdb
+C:\Users\admin\source\repos\20200701_WinForm\obj\Debug\_20200701_WinForm.Form1.resources

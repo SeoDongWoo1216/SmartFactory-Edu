@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\TxtBoxTEST\bin\Debug\TxtBoxTEST.exe.config
+C:\Users\admin\source\repos\TxtBoxTEST\bin\Debug\TxtBoxTEST.exe
+C:\Users\admin\source\repos\TxtBoxTEST\bin\Debug\TxtBoxTEST.pdb
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.Form1.resources
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.Properties.Resources.resources
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.exe
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.pdb
+C:\Users\admin\source\repos\TxtBoxTEST\obj\Debug\TxtBoxTEST.csprojAssemblyReference.cache

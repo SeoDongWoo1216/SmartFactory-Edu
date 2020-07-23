@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\IndexSeachingTest\bin\Debug\IndexSeachingTest.exe.config
+C:\Users\admin\source\repos\IndexSeachingTest\bin\Debug\IndexSeachingTest.exe
+C:\Users\admin\source\repos\IndexSeachingTest\bin\Debug\IndexSeachingTest.pdb
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\IndexSeachingTest.InsertGridPrice.resources
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\IndexSeachingTest.Properties.Resources.resources
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\InsertGridPrice.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\InsertGridPrice.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\IndexSeachingTest.exe
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\IndexSeachingTest.pdb
+C:\Users\admin\source\repos\IndexSeachingTest\obj\Debug\InsertGridPrice.csprojAssemblyReference.cache

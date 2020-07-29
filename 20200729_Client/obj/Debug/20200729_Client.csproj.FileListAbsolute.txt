@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200729_Client\bin\Debug\20200729_Client.exe.config
+C:\Users\admin\source\repos\20200729_Client\bin\Debug\20200729_Client.exe
+C:\Users\admin\source\repos\20200729_Client\bin\Debug\20200729_Client.pdb
+C:\Users\admin\source\repos\20200729_Client\obj\Debug\20200729_Client.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200729_Client\obj\Debug\20200729_Client.exe
+C:\Users\admin\source\repos\20200729_Client\obj\Debug\20200729_Client.pdb

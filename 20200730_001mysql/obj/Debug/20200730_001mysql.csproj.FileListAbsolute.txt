@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200730_001mysql\bin\Debug\20200730_001mysql.exe.config
+C:\Users\admin\source\repos\20200730_001mysql\bin\Debug\20200730_001mysql.exe
+C:\Users\admin\source\repos\20200730_001mysql\bin\Debug\20200730_001mysql.pdb
+C:\Users\admin\source\repos\20200730_001mysql\obj\Debug\20200730_001mysql.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200730_001mysql\obj\Debug\20200730_001mysql.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200730_001mysql\obj\Debug\20200730_001mysql.exe
+C:\Users\admin\source\repos\20200730_001mysql\obj\Debug\20200730_001mysql.pdb

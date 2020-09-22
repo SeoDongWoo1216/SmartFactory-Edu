@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200821_002 IComparable2\bin\Debug\20200821_002 IComparable2.exe.config
+C:\Users\admin\source\repos\20200821_002 IComparable2\bin\Debug\20200821_002 IComparable2.exe
+C:\Users\admin\source\repos\20200821_002 IComparable2\bin\Debug\20200821_002 IComparable2.pdb
+C:\Users\admin\source\repos\20200821_002 IComparable2\obj\Debug\20200821_002 IComparable2.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200821_002 IComparable2\obj\Debug\20200821_002 IComparable2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_002 IComparable2\obj\Debug\20200821_002 IComparable2.exe
+C:\Users\admin\source\repos\20200821_002 IComparable2\obj\Debug\20200821_002 IComparable2.pdb

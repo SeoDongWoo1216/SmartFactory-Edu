@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200915_004Struct\bin\Debug\20200915_004Struct.exe.config
+C:\Users\admin\source\repos\20200915_004Struct\bin\Debug\20200915_004Struct.exe
+C:\Users\admin\source\repos\20200915_004Struct\bin\Debug\20200915_004Struct.pdb
+C:\Users\admin\source\repos\20200915_004Struct\obj\Debug\20200915_004reference.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200915_004Struct\obj\Debug\20200915_004reference.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200915_004Struct\obj\Debug\20200915_004Struct.exe
+C:\Users\admin\source\repos\20200915_004Struct\obj\Debug\20200915_004Struct.pdb

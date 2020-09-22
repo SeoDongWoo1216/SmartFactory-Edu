@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\20200821_003Combobox\bin\Debug\20200821_003Combobox.exe.config
+C:\Users\admin\source\repos\20200821_003Combobox\bin\Debug\20200821_003Combobox.exe
+C:\Users\admin\source\repos\20200821_003Combobox\bin\Debug\20200821_003Combobox.pdb
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\20200821_003Combobox.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\_20200821_003Combobox.Form1.resources
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\_20200821_003Combobox.Properties.Resources.resources
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\20200821_003Combobox.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\20200821_003Combobox.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\20200821_003Combobox.exe
+C:\Users\admin\source\repos\20200821_003Combobox\obj\Debug\20200821_003Combobox.pdb

@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\20200821_003Combobox3\bin\Debug\20200821_003Combobox3.exe.config
+C:\Users\admin\source\repos\20200821_003Combobox3\bin\Debug\20200821_003Combobox3.exe
+C:\Users\admin\source\repos\20200821_003Combobox3\bin\Debug\20200821_003Combobox3.pdb
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\_20200821_003Combobox3.Form1.resources
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\_20200821_003Combobox3.Properties.Resources.resources
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\20200821_003Combobox3.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\20200821_003Combobox3.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\20200821_003Combobox3.exe
+C:\Users\admin\source\repos\20200821_003Combobox3\obj\Debug\20200821_003Combobox3.pdb

@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200915_007_delegate2\bin\Debug\20200915_007_delegate2.exe.config
+C:\Users\admin\source\repos\20200915_007_delegate2\bin\Debug\20200915_007_delegate2.exe
+C:\Users\admin\source\repos\20200915_007_delegate2\bin\Debug\20200915_007_delegate2.pdb
+C:\Users\admin\source\repos\20200915_007_delegate2\obj\Debug\20200915_007_delegate2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200915_007_delegate2\obj\Debug\20200915_007_delegate2.exe
+C:\Users\admin\source\repos\20200915_007_delegate2\obj\Debug\20200915_007_delegate2.pdb
+C:\Users\admin\source\repos\20200915_007_delegate2\obj\Debug\20200915_007_delegate2.csprojAssemblyReference.cache

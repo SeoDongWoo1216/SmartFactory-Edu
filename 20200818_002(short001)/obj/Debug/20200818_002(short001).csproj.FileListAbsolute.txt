@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200818_002(short001)\bin\Debug\20200818_002(short001).exe.config
+C:\Users\admin\source\repos\20200818_002(short001)\bin\Debug\20200818_002(short001).exe
+C:\Users\admin\source\repos\20200818_002(short001)\bin\Debug\20200818_002(short001).pdb
+C:\Users\admin\source\repos\20200818_002(short001)\obj\Debug\20200818_002(short001).csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200818_002(short001)\obj\Debug\20200818_002(short001).exe
+C:\Users\admin\source\repos\20200818_002(short001)\obj\Debug\20200818_002(short001).pdb

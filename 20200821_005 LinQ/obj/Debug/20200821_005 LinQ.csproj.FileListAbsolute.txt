@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200821_005 LinQ\bin\Debug\20200821_005 LinQ.exe.config
+C:\Users\admin\source\repos\20200821_005 LinQ\bin\Debug\20200821_005 LinQ.exe
+C:\Users\admin\source\repos\20200821_005 LinQ\bin\Debug\20200821_005 LinQ.pdb
+C:\Users\admin\source\repos\20200821_005 LinQ\obj\Debug\20200821_005 LinQ.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_005 LinQ\obj\Debug\20200821_005 LinQ.exe
+C:\Users\admin\source\repos\20200821_005 LinQ\obj\Debug\20200821_005 LinQ.pdb

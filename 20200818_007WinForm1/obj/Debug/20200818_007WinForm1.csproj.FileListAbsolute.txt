@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\20200818_007WinForm1\bin\Debug\20200818_007WinForm1.exe.config
+C:\Users\admin\source\repos\20200818_007WinForm1\bin\Debug\20200818_007WinForm1.exe
+C:\Users\admin\source\repos\20200818_007WinForm1\bin\Debug\20200818_007WinForm1.pdb
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\20200818_007WinForm1.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\_20200818_007WinForm1.Form1.resources
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\_20200818_007WinForm1.Properties.Resources.resources
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\20200818_007WinForm1.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\20200818_007WinForm1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\20200818_007WinForm1.exe
+C:\Users\admin\source\repos\20200818_007WinForm1\obj\Debug\20200818_007WinForm1.pdb

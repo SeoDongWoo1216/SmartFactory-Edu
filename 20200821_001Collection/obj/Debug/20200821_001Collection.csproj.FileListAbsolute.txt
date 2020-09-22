@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200821_001Collection\obj\Debug\20200821_001Collection.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200821_001Collection\obj\Debug\20200821_001Collection.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_001Collection\bin\Debug\20200821_001Collection.exe.config
+C:\Users\admin\source\repos\20200821_001Collection\bin\Debug\20200821_001Collection.exe
+C:\Users\admin\source\repos\20200821_001Collection\bin\Debug\20200821_001Collection.pdb
+C:\Users\admin\source\repos\20200821_001Collection\obj\Debug\20200821_001Collection.exe
+C:\Users\admin\source\repos\20200821_001Collection\obj\Debug\20200821_001Collection.pdb

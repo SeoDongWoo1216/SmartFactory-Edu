@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\backjunSugerDrive\obj\Debug\backjunSugerDrive.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\backjunSugerDrive\obj\Debug\backjunSugerDrive.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\backjunSugerDrive\bin\Debug\backjunSugerDrive.exe.config
+C:\Users\admin\source\repos\backjunSugerDrive\bin\Debug\backjunSugerDrive.exe
+C:\Users\admin\source\repos\backjunSugerDrive\bin\Debug\backjunSugerDrive.pdb
+C:\Users\admin\source\repos\backjunSugerDrive\obj\Debug\backjunSugerDrive.exe
+C:\Users\admin\source\repos\backjunSugerDrive\obj\Debug\backjunSugerDrive.pdb

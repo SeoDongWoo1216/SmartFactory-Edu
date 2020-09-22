@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200821_002\bin\Debug\20200821_002.exe.config
+C:\Users\admin\source\repos\20200821_002\bin\Debug\20200821_002.exe
+C:\Users\admin\source\repos\20200821_002\bin\Debug\20200821_002.pdb
+C:\Users\admin\source\repos\20200821_002\obj\Debug\20200821_002Icomparable.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_002\obj\Debug\20200821_002.exe
+C:\Users\admin\source\repos\20200821_002\obj\Debug\20200821_002.pdb

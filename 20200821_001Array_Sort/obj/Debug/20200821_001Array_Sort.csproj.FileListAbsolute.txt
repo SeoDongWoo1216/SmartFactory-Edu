@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\20200821_001Array_Sort\bin\Debug\20200821_001Array_Sort.exe.config
+C:\Users\admin\source\repos\20200821_001Array_Sort\bin\Debug\20200821_001Array_Sort.exe
+C:\Users\admin\source\repos\20200821_001Array_Sort\bin\Debug\20200821_001Array_Sort.pdb
+C:\Users\admin\source\repos\20200821_001Array_Sort\obj\Debug\20200821_001Array_Sort.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200821_001Array_Sort\obj\Debug\20200821_001Array_Sort.exe
+C:\Users\admin\source\repos\20200821_001Array_Sort\obj\Debug\20200821_001Array_Sort.pdb

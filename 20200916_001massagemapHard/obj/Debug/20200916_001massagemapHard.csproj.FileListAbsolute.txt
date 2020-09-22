@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\20200916_001massagemapHard\bin\Debug\20200916_001massagemapHard.exe.config
+C:\Users\admin\source\repos\20200916_001massagemapHard\bin\Debug\20200916_001massagemapHard.exe
+C:\Users\admin\source\repos\20200916_001massagemapHard\bin\Debug\20200916_001massagemapHard.pdb
+C:\Users\admin\source\repos\20200916_001massagemapHard\obj\Debug\20200916_001massagemapHard.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\20200916_001massagemapHard\obj\Debug\20200916_001massagemapHard.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200916_001massagemapHard\obj\Debug\20200916_001massagemapHard.exe
+C:\Users\admin\source\repos\20200916_001massagemapHard\obj\Debug\20200916_001massagemapHard.pdb

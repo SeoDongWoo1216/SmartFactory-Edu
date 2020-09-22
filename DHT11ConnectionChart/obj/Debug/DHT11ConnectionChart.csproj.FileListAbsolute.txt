@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\DHT11ConnectionChart.exe.config
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\DHT11ConnectionChart.exe
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\DHT11ConnectionChart.pdb
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\MySql.Data.dll
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\Google.Protobuf.dll
+C:\Users\admin\source\repos\DHT11ConnectionChart\bin\Debug\MySql.Data.xml
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.Form1.resources
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.Properties.Resources.resources
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.csproj.CopyComplete
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.exe
+C:\Users\admin\source\repos\DHT11ConnectionChart\obj\Debug\DHT11ConnectionChart.pdb

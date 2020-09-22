@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\SampleSDW\bin\Debug\SampleSDW.exe.config
+C:\Users\admin\source\repos\SampleSDW\bin\Debug\SampleSDW.exe
+C:\Users\admin\source\repos\SampleSDW\bin\Debug\SampleSDW.pdb
+C:\Users\admin\source\repos\SampleSDW\obj\Debug\SampleSDW.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\SampleSDW\obj\Debug\SampleSDW.exe
+C:\Users\admin\source\repos\SampleSDW\obj\Debug\SampleSDW.pdb

@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\20200819_001(SecondForm)\bin\Debug\20200819_001(SecondForm).exe.config
+C:\Users\admin\source\repos\20200819_001(SecondForm)\bin\Debug\20200819_001(SecondForm).exe
+C:\Users\admin\source\repos\20200819_001(SecondForm)\bin\Debug\20200819_001(SecondForm).pdb
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\_20200819_001_SecondForm_.Form2.resources
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\_20200819_001_SecondForm_.Properties.Resources.resources
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\20200819_001(SecondForm).csproj.GenerateResource.cache
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\20200819_001(SecondForm).csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\20200819_001(SecondForm).exe
+C:\Users\admin\source\repos\20200819_001(SecondForm)\obj\Debug\20200819_001(SecondForm).pdb

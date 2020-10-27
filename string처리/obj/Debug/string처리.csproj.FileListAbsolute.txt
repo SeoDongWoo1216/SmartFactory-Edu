@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\string처리\bin\Debug\string처리.exe.config
+C:\Users\admin\source\repos\string처리\bin\Debug\string처리.exe
+C:\Users\admin\source\repos\string처리\bin\Debug\string처리.pdb
+C:\Users\admin\source\repos\string처리\obj\Debug\string처리.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\string처리\obj\Debug\string처리.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\string처리\obj\Debug\string처리.exe
+C:\Users\admin\source\repos\string처리\obj\Debug\string처리.pdb

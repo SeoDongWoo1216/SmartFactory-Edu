@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\sokoban_003_Background\bin\Debug\sokoban_003_Background.exe.config
+C:\Users\admin\source\repos\sokoban_003_Background\bin\Debug\sokoban_003_Background.exe
+C:\Users\admin\source\repos\sokoban_003_Background\bin\Debug\sokoban_003_Background.pdb
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.Form1.resources
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.Properties.Resources.resources
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.exe
+C:\Users\admin\source\repos\sokoban_003_Background\obj\Debug\sokoban_003_Background.pdb

@@ -110,7 +110,10 @@ class Program
         //string txt2 = "{0} * {1} == {2}";
         //Console.WriteLine(txt2, 5, 6, 5 * 6);
 
-        string txt3 = "{0, -10} * {1} == {2, 10}";
-        Console.WriteLine(txt3, 5, 6, 5 * 6);
+        //string txt3 = "{0, -10} * {1} == {2, 10}";
+        //Console.WriteLine(txt3, 5, 6, 5 * 6);
+
+        string txt4 = "날짜 : {0, -20:D}, 판매 수량: {1, 15:N}";
+        Console.WriteLine(txt4, DateTime.Now, 267);
     }
 }

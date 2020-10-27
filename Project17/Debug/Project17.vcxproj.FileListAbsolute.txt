@@ -1,0 +1,2 @@
+C:\Users\admin\source\repos\Project17\Debug\Project17.exe
+C:\Users\admin\source\repos\Project17\Debug\Project17.pdb

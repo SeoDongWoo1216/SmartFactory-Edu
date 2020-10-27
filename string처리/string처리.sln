@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string처리", "string처리.csproj", "{F7A20ABB-1A1F-4A13-ACEB-D9CB59C1956B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A20ABB-1A1F-4A13-ACEB-D9CB59C1956B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A20ABB-1A1F-4A13-ACEB-D9CB59C1956B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A20ABB-1A1F-4A13-ACEB-D9CB59C1956B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A20ABB-1A1F-4A13-ACEB-D9CB59C1956B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D35AE92-37E7-4594-BAE2-B60BDB13AD4C}
+	EndGlobalSection
+EndGlobal

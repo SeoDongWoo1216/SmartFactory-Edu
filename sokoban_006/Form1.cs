@@ -1,4 +1,5 @@
-﻿using System;
+﻿// DoubleBuffered를 True로!
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,12 +20,13 @@ namespace sokoban_006
         Bitmap Wall;     // 벽(wall) = '#'
         Bitmap Point;    // 도착점(Point) = '.'
         Bitmap Ground;   // 배경(Ground) = 'G'
-        Bitmap Road;   // 길(Road) = ' '
+        Bitmap Road;     // 길(Road) = ' '
 
 
         string[] Map;
+        char[][] MapReal;
         Point Human = new Point();
-        int HumanX;  // Human
+        int HumanX;
         int HumanY;
 
         int iX;
@@ -39,14 +41,14 @@ namespace sokoban_006
 
             ClientSize = new Size(XPixel * XTile, YPixel * YTile); // 클라이언트 폼 크기 설정 메서드
 
-            Wall = new Bitmap(Properties.Resources.Wall);  // 이미지 할당은 생성자에서 이루어짐
+            Wall    = new Bitmap(Properties.Resources.Wall);  // 이미지 할당은 생성자에서 이루어짐
             HumanFB = new Bitmap(Properties.Resources.HumanFB);
-            HumanR = new Bitmap(Properties.Resources.HumanR);
-            HumanL = new Bitmap(Properties.Resources.HumanL);
-            Box = new Bitmap(Properties.Resources.Box);
-            Point = new Bitmap(Properties.Resources.Point);
-            Ground = new Bitmap(Properties.Resources.GND);
-            Road = new Bitmap(Properties.Resources.Road);
+            HumanR  = new Bitmap(Properties.Resources.HumanR);
+            HumanL  = new Bitmap(Properties.Resources.HumanL);
+            Box     = new Bitmap(Properties.Resources.Box);
+            Point   = new Bitmap(Properties.Resources.Point);
+            Ground  = new Bitmap(Properties.Resources.GND);
+            Road    = new Bitmap(Properties.Resources.Road);
 
             Map = new string[YTile]    // YTile만큼의 배열 생성(세로)
             {
@@ -62,8 +64,17 @@ namespace sokoban_006
               "GGGGGGGGGGGGGGGG"  // 9
             };
 
-            //string Temp= "Apple";
-            //char[] Test = Temp.ToCharArray();
+            // string Temp= "Apple";
+            // char[] Test = Temp.ToCharArray();
+            // stub 코드(나무 밑둥 코드)
+            
+            MapReal = new char[YTile][];
+
+            for (int i = 0; i < YTile; ++i)
+            {
+                MapReal[i] = Map[i].ToCharArray();
+            }
+
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e) // 맵핑을 통해 이미지들을 그려주는 이벤트 구문
@@ -73,7 +84,7 @@ namespace sokoban_006
             {
                 for (int iX = 0; iX < XTile; ++iX)
                 {
-                    switch (Map[iY][iX]) // Map 배열의 iY줄의 iX의 값을 보는 조건문
+                    switch (MapReal[iY][iX]) // Map 배열의 iY줄의 iX의 값을 보는 조건문
                     {
                         case '#':
                             aBitmap = Wall;
@@ -82,7 +93,6 @@ namespace sokoban_006
                             aBitmap = HumanFB;
                             HumanX = iX;    // 지금 @(HumanFB)의 좌표를 저장
                             HumanY = iY;
-                            //MessageBox.Show(string.Format("{0}, {1}", iX, iY));
                             break;
                         case ' ':
                             aBitmap = Road;
@@ -105,6 +115,33 @@ namespace sokoban_006
                     e.Graphics.DrawImage(aBitmap, iX * XPixel, iY * YPixel);
                 }
             }
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            MapReal[HumanY][HumanX] = ' ';
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    --HumanX;
+                    break;
+                case Keys.Right:
+                    ++HumanX;
+                    break;
+                case Keys.Up:
+                    --HumanY;
+                    break;
+                case Keys.Down:
+                    ++HumanY;
+                    break;
+                default:
+                    MapReal[HumanY][HumanX] = '@';
+                    return; 
+                    // switch문말고 다른 키보드 클릭했을때는 return
+                    // break;하면 invalidate때문에 또 그려지므로 return을 사용하는 것이 맞다.
+            }
+        MapReal[HumanY][HumanX] = '@';
+            Invalidate();
         }
     }
 }

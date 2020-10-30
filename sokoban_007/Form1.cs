@@ -22,11 +22,16 @@ namespace sokoban_007
         Bitmap Road;     // 길(Road) = ' '
 
 
-        string[] Map;
+        string[,] Map;
         char[][] MapReal;
         Point Human = new Point();
         int HumanX;
         int HumanY;
+        int HumanXOld;  // 움직이기전 원래 좌표값을 백업할 변수
+        int HumanYOld;
+
+        int iStage;    // 지금의 스테이지가 몇인지 저장할 변수
+        bool EndStage;  // 스테이지 끝날때, 안끝날때 bool형 변수
 
         int iX;
         int iY;
@@ -49,18 +54,36 @@ namespace sokoban_007
             Ground = new Bitmap(Properties.Resources.GND);
             Road = new Bitmap(Properties.Resources.Road);
 
-            Map = new string[YTile]    // YTile만큼의 배열 생성(세로)
+            iStage = 0;
+
+            Map = new string[,]    // YTile만큼의 배열 생성(세로)
             {
+            {  
               "GGGGGGGGGGGGGGGG", // 0
               "G##############G", // 1
-              "G##### ########G", // 2
-              "G##### ########G", // 3
-              "G##   @B  .####G", // 4
-              "G##### ########G", // 5
-              "G##### ########G", // 6
+              "G#####     ####G", // 2
+              "G##         ###G", // 3
+              "G##  @B.   ####G", // 4
+              "G##   B.  #####G", // 5
+              "G##       #####G", // 6
               "G##### ########G", // 7
               "G##############G", // 8
               "GGGGGGGGGGGGGGGG"  // 9
+                },
+
+             {
+              "GGGGGGGGGGGGGGGG", // 0
+              "G##############G", // 1
+              "G##          ##G", // 2
+              "G##          ##G", // 3
+              "G##  @B.     ##G", // 4
+              "G##   B.     ##G", // 5
+              "G##          ##G", // 6
+              "G##         ###G", // 7
+              "G##############G", // 8
+              "GGGGGGGGGGGGGGGG"  // 9
+                }
+
             };
 
             // string Temp= "Apple";
@@ -71,7 +94,7 @@ namespace sokoban_007
 
             for (int i = 0; i < YTile; ++i)
             {
-                MapReal[i] = Map[i].ToCharArray();
+                MapReal[i] = Map[iStage,i].ToCharArray();
             }
 
         }
@@ -79,6 +102,8 @@ namespace sokoban_007
      
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+            EndStage = true;
+
             Bitmap aBitmap;  // 하드코딩 방지를 위해 그릴때 임시 변수 aBitmap 선언
             for (int iY = 0; iY < YTile; ++iY)
             {
@@ -89,23 +114,33 @@ namespace sokoban_007
                         case '#':
                             aBitmap = Wall;
                             break;
+
                         case '@':
                             aBitmap = HumanFB;
                             HumanX = iX;    // 지금 @(HumanFB)의 좌표를 저장
                             HumanY = iY;
                             break;
+
                         case ' ':
                             aBitmap = Road;
                             break;
+
                         case 'G':
                             aBitmap = Ground;
                             break;
+
                         case '.':
                             aBitmap = Point;
                             break;
+
                         case 'B':
                             aBitmap = Box;
+                            if ('.' != Map[iStage, iY][iX])  // 박스와 점이 겹치지않을때는 스테이지가 계속 유지
+                            {
+                                EndStage = false;
+                            }
                             break;
+
                         default:    // case문에 해당되지 않는 경우가 생길때는 Road로 출력
                             aBitmap = Road;
                             break;
@@ -115,34 +150,126 @@ namespace sokoban_007
                     e.Graphics.DrawImage(aBitmap, iX * XPixel, iY * YPixel);
                 }
             }
+
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             MapReal[HumanY][HumanX] = ' ';
+            HumanXOld = HumanX;
+            HumanYOld = HumanY;
             switch (e.KeyCode)
             {
                 case Keys.Left:
+                    if ('#' == MapReal[HumanY][HumanX - 1])    // 사람의 왼쪽이 벽이면 return
+                    {
+                        return;
+                    }
+                    if ('B' == MapReal[HumanY][HumanX - 1])   // 사람 왼쪽에 박스가 있으면 박스의 위치를 한칸 더 왼쪽에 그려줌(박스 들고 이동되는것처럼 보임)
+                    {
+                        if ('#' == MapReal[HumanY][HumanX - 2])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY][HumanX - 2])  // 박스 2개가 겹칠때 못움직이도록
+                        {
+                            return;
+                        }
+                        MapReal[HumanY][HumanX - 2] = 'B';
+                    }
                     --HumanX;
                     break;
+
+
                 case Keys.Right:
+                    if ('#' == MapReal[HumanY][HumanX + 1])   
+                    {
+                        return;
+                    }
+
+                    if ('B' == MapReal[HumanY][HumanX + 1])
+                    {
+                        if ('#' == MapReal[HumanY][HumanX + 2])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY][HumanX + 2])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY][HumanX + 2] = 'B';
+
+                    }
                     ++HumanX;
                     break;
+
+
                 case Keys.Up:
+                    if ('#' == MapReal[HumanY - 1][HumanX])
+                    {
+                        return;
+                    }
+                    if ('B' == MapReal[HumanY - 1][HumanX])
+                    {
+                        if ('#' == MapReal[HumanY - 2][HumanX])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY - 2][HumanX])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY - 2][HumanX] = 'B';
+                    }
                     --HumanY;
                     break;
+
+
                 case Keys.Down:
+                    if ('#' == MapReal[HumanY + 1][HumanX])
+                    {
+                        return;
+                    }
+
+                    if ('B' == MapReal[HumanY + 1][HumanX])
+                    {
+                        if ('#' == MapReal[HumanY + 2][HumanX])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY + 2][HumanX])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY + 2][HumanX] = 'B';
+                    }
                     ++HumanY;
                     break;
+
+
                 default:
                     MapReal[HumanY][HumanX] = '@';
                     return;
-                    // switch문말고 다른 키보드 클릭했을때는 return
+                    // switch문말고 다른 키보드 클릭했을때는 return;
                     // break;하면 invalidate때문에 또 그려지므로 return을 사용하는 것이 맞다.
             }
+            if ('.' == Map[iStage, HumanYOld][HumanXOld])   // 점의 위치에 있을때
+            {  
+                MapReal[HumanYOld][HumanXOld] = '.';   // 원래 Map의 점의 위치일때를 복사해와서 점을 다시 그려준다
+            }
             MapReal[HumanY][HumanX] = '@';
+
             Invalidate();
+            Update();
+
+            if (EndStage)  // EndStage가 true일때 스테이지 종료
+            {
+                MessageBox.Show("끝남");
+            }
         }
 
-        
+        private void MoveHuman()
+        {
+
+        }
     }
 }

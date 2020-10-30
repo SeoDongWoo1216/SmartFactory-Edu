@@ -160,7 +160,7 @@ namespace sokoban_007_003
             {
                 return;
             }
-            else if ('B' == MapReal[2 * HumanY][2 * HumanX - 1])   // 사람 왼쪽에 박스가 있으면 박스의 위치를 한칸 더 왼쪽에 그려줌(박스 들고 이동되는것처럼 보임)
+            else if ('B' == MapReal[HumanY][HumanX])   // 사람 왼쪽에 박스가 있으면 박스의 위치를 한칸 더 왼쪽에 그려줌(박스 들고 이동되는것처럼 보임)
             {
                 if ('#' == MapReal[2 * HumanY - HumanYOld][2 * HumanX - HumanXOld])
                 {
@@ -179,12 +179,66 @@ namespace sokoban_007_003
             }
             MapReal[HumanY][HumanX] = '@';
         }
+
+
+
+
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             MapReal[HumanY][HumanX] = ' ';
             HumanXOld = HumanX;
             HumanYOld = HumanY;
 
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    --HumanX;
+                    break;
+                case Keys.Right:
+                    ++HumanX;
+                    break;
+                case Keys.Up:
+                    --HumanY;
+                    break;
+                case Keys.Down:
+                    ++HumanY;
+                    break;
+                default:
+                    MapReal[HumanY][HumanX] = '@';
+                    return;
+                    // switch문말고 다른 키보드 클릭했을때는 return;
+                    // break;하면 invalidate때문에 또 그려지므로 return을 사용하는 것이 맞다.
+            }
+
+
+
+            if ('.' == Map[iStage, HumanYOld][HumanXOld])   // 점의 위치에 있을때
+            {
+                MapReal[HumanYOld][HumanXOld] = '.';   // 원래 Map의 점의 위치일때를 복사해와서 점을 다시 그려준다
+            }
+            MapReal[HumanY][HumanX] = '@';
+
+            Move();
+            Invalidate();
+            Update();
+
+            if (EndStage)  // EndStage가 true일때 스테이지 종료
+            {
+                MessageBox.Show("끝남");
+            }
+        }
+
+
+
+
+        private void Form1_KeyDown1(object sender, KeyEventArgs e)
+        {
+            MapReal[HumanY][HumanX] = ' ';
+            HumanXOld = HumanX;
+            HumanYOld = HumanY;
+
+            ////////////////////////////////////////////////////////////////
             /*
             int xPos = HumanX;      // 새로 캐릭터가 이동할 X좌표
             int yPos = HumanY;      // 새로 캐릭터가 이동할 Y좌표
@@ -239,92 +293,93 @@ namespace sokoban_007_003
             MapReal[yPos][xPos] = '@';
             */
             
+            ///////////////////////////////////////////////////////////
+            ///
             switch (e.KeyCode)
             {
                 case Keys.Left:
-
-                    //if ('#' == MapReal[HumanY][HumanX - 1])    // 사람의 왼쪽이 벽이면 return
-                    //{
-                    //    return;
-                    //}
-                    //if ('B' == MapReal[HumanY][HumanX - 1])   // 사람 왼쪽에 박스가 있으면 박스의 위치를 한칸 더 왼쪽에 그려줌(박스 들고 이동되는것처럼 보임)
-                    //{
-                    //    if ('#' == MapReal[HumanY][HumanX - 2])
-                    //    {
-                    //        return;
-                    //    }
-                    //    if ('B' == MapReal[HumanY][HumanX - 2])  // 박스 2개가 겹칠때 못움직이도록
-                    //    {
-                    //        return;
-                    //    }
-                    //    MapReal[HumanY][HumanX - 2] = 'B';
-                    //}
+                    if ('#' == MapReal[HumanY][HumanX - 1])    // 사람의 왼쪽이 벽이면 return
+                    {
+                        return;
+                    }
+                    if ('B' == MapReal[HumanY][HumanX - 1])   // 사람 왼쪽에 박스가 있으면 박스의 위치를 한칸 더 왼쪽에 그려줌(박스 들고 이동되는것처럼 보임)
+                    {
+                        if ('#' == MapReal[HumanY][HumanX - 2])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY][HumanX - 2])  // 박스 2개가 겹칠때 못움직이도록
+                        {
+                            return;
+                        }
+                        MapReal[HumanY][HumanX - 2] = 'B';
+                    }
                     --HumanX;
                     break;
 
 
                 case Keys.Right:
-                    //if ('#' == MapReal[HumanY][HumanX + 1])
-                    //{
-                    //    return;
-                    //}
+                    if ('#' == MapReal[HumanY][HumanX + 1])
+                    {
+                        return;
+                    }
 
-                    //if ('B' == MapReal[HumanY][HumanX + 1])
-                    //{
-                    //    if ('#' == MapReal[HumanY][HumanX + 2])
-                    //    {
-                    //        return;
-                    //    }
-                    //    if ('B' == MapReal[HumanY][HumanX + 2])
-                    //    {
-                    //        return;
-                    //    }
-                    //    MapReal[HumanY][HumanX + 2] = 'B';
-                    //}
+                    if ('B' == MapReal[HumanY][HumanX + 1])
+                    {
+                        if ('#' == MapReal[HumanY][HumanX + 2])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY][HumanX + 2])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY][HumanX + 2] = 'B';
+                    }
 
                     ++HumanX;
                     break;
 
 
                 case Keys.Up:
-                    //if ('#' == MapReal[HumanY - 1][HumanX])
-                    //{
-                    //    return;
-                    //}
-                    //if ('B' == MapReal[HumanY - 1][HumanX])
-                    //{
-                    //    if ('#' == MapReal[HumanY - 2][HumanX])
-                    //    {
-                    //        return;
-                    //    }
-                    //    if ('B' == MapReal[HumanY - 2][HumanX])
-                    //    {
-                    //        return;
-                    //    }
-                    //    MapReal[HumanY - 2][HumanX] = 'B';
-                    //}
+                    if ('#' == MapReal[HumanY - 1][HumanX])
+                    {
+                        return;
+                    }
+                    if ('B' == MapReal[HumanY - 1][HumanX])
+                    {
+                        if ('#' == MapReal[HumanY - 2][HumanX])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY - 2][HumanX])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY - 2][HumanX] = 'B';
+                    }
                     --HumanY;
                     break;
 
 
                 case Keys.Down:
-                    //if ('#' == MapReal[HumanY + 1][HumanX])
-                    //{
-                    //    return;
-                    //}
+                    if ('#' == MapReal[HumanY + 1][HumanX])
+                    {
+                        return;
+                    }
 
-                    //if ('B' == MapReal[HumanY + 1][HumanX])
-                    //{
-                    //    if ('#' == MapReal[HumanY + 2][HumanX])
-                    //    {
-                    //        return;
-                    //    }
-                    //    if ('B' == MapReal[HumanY + 2][HumanX])
-                    //    {
-                    //        return;
-                    //    }
-                    //    MapReal[HumanY + 2][HumanX] = 'B';
-                    //}
+                    if ('B' == MapReal[HumanY + 1][HumanX])
+                    {
+                        if ('#' == MapReal[HumanY + 2][HumanX])
+                        {
+                            return;
+                        }
+                        if ('B' == MapReal[HumanY + 2][HumanX])
+                        {
+                            return;
+                        }
+                        MapReal[HumanY + 2][HumanX] = 'B';
+                    }
                     ++HumanY;
                     break;
 
@@ -336,15 +391,15 @@ namespace sokoban_007_003
                     // break;하면 invalidate때문에 또 그려지므로 return을 사용하는 것이 맞다.
             }
 
-            Move();
             
-            //if ('.' == Map[iStage, HumanYOld][HumanXOld])   // 점의 위치에 있을때
-            //{
-            //    MapReal[HumanYOld][HumanXOld] = '.';   // 원래 Map의 점의 위치일때를 복사해와서 점을 다시 그려준다
-            //}
-            //MapReal[HumanY][HumanX] = '@';
 
-            
+            if ('.' == Map[iStage, HumanYOld][HumanXOld])   // 점의 위치에 있을때
+            {
+                MapReal[HumanYOld][HumanXOld] = '.';   // 원래 Map의 점의 위치일때를 복사해와서 점을 다시 그려준다
+            }
+            MapReal[HumanY][HumanX] = '@';
+
+
             Invalidate();
             Update();
 
@@ -355,6 +410,6 @@ namespace sokoban_007_003
         }
 
 
-        
+
     }
 }

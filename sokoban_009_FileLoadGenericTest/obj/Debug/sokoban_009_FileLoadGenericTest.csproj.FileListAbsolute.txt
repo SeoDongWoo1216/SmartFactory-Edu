@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\bin\Debug\sokoban_009_FileLoadGenericTest.exe.config
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\bin\Debug\sokoban_009_FileLoadGenericTest.exe
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\bin\Debug\sokoban_009_FileLoadGenericTest.pdb
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\obj\Debug\sokoban_009_FileLoadGenericTest.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\obj\Debug\sokoban_009_FileLoadGenericTest.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\obj\Debug\sokoban_009_FileLoadGenericTest.exe
+C:\Users\admin\source\repos\sokoban_009_FileLoadGenericTest\obj\Debug\sokoban_009_FileLoadGenericTest.pdb

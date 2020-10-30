@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\bin\Debug\sokoban_008_FileLoadTest.exe.config
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\bin\Debug\sokoban_008_FileLoadTest.exe
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\bin\Debug\sokoban_008_FileLoadTest.pdb
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.Form1.resources
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.Properties.Resources.resources
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.exe
+C:\Users\admin\source\repos\sokoban_008_FileLoadTest\obj\Debug\sokoban_008_FileLoadTest.pdb

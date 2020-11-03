@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\sokoban_010_001generic\bin\Debug\sokoban_010_001generic.exe.config
+C:\Users\admin\source\repos\sokoban_010_001generic\bin\Debug\sokoban_010_001generic.exe
+C:\Users\admin\source\repos\sokoban_010_001generic\bin\Debug\sokoban_010_001generic.pdb
+C:\Users\admin\source\repos\sokoban_010_001generic\obj\Debug\sokoban_010_001generic.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sokoban_010_001generic\obj\Debug\sokoban_010_001generic.exe
+C:\Users\admin\source\repos\sokoban_010_001generic\obj\Debug\sokoban_010_001generic.pdb

@@ -1,0 +1,2 @@
+C:\Users\admin\source\repos\Project24\Debug\Project24.exe
+C:\Users\admin\source\repos\Project24\Debug\Project24.pdb

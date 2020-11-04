@@ -99,15 +99,17 @@ namespace sokoban_010_001generic
 
             foreach (var TTTT in Map[0])
             {
-                Console.WriteLine(TTTT);
+                //Console.WriteLine(TTTT);
             }
             Console.WriteLine();
             foreach (var TTTT in Map[1])
             {
-                Console.WriteLine(TTTT);
+                //Console.WriteLine(TTTT);
             }
 
-
+            List<int> aList2 = new List<int>();
+            foreach(var TTT in aList2)
+                Console.WriteLine(TTT);
         }
     }
 }

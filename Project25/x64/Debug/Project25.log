@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\admin\source\repos\Project25\main.c(23,19): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\admin\source\repos\Project25\main.c(63,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\admin\source\repos\Project25\main.c(63,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\admin\source\repos\Project25\main.c(64,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\admin\source\repos\Project25\main.c(64,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\admin\source\repos\Project25\main.c(40): warning C4716: 'main2': 값을 반환해야 합니다.
+  Project25.vcxproj -> C:\Users\admin\source\repos\Project25\x64\Debug\Project25.exe

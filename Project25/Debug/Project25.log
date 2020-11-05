@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\admin\source\repos\Project25\main.c(23,19): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\admin\source\repos\Project25\main.c(40): warning C4716: 'main2': 값을 반환해야 합니다.
+  Project25.vcxproj -> C:\Users\admin\source\repos\Project25\Debug\Project25.exe

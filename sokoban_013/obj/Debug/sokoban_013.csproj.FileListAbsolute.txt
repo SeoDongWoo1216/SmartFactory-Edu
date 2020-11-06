@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.Form1.resources
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.Properties.Resources.resources
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sokoban_013\bin\Debug\sokoban_013.exe.config
+C:\Users\admin\source\repos\sokoban_013\bin\Debug\sokoban_013.exe
+C:\Users\admin\source\repos\sokoban_013\bin\Debug\sokoban_013.pdb
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.exe
+C:\Users\admin\source\repos\sokoban_013\obj\Debug\sokoban_013.pdb

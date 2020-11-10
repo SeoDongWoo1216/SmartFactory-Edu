@@ -1,0 +1,3 @@
+﻿cl : 명령줄 warning D9025: '/sdl'을(를) '/GS-'(으)로 재정의합니다.
+  main.c
+  Project29.vcxproj -> C:\Users\admin\source\repos\Project29\Debug\Project29.exe

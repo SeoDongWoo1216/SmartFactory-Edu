@@ -1,5 +1,4 @@
 #include <stdio.h>
-#pragma warning(disable:4996)
 
 int Add(int, int);
 int Input(void);
@@ -20,29 +19,16 @@ int main(void)
 	return 0;
 }
 
-int Add(int a, int b)
-{
-	return a + b;
-}
 
-int Input(void)
-{
-	int input;
-	scanf("%d", &input);
-	return input;
-}
 
-void PrintResult(int val)
-{
-	printf("덧셈에 대한 결과 : %d\n", val);
-	printf("*********END*********\n");
-}
 
-void Intro(void) 
-{
-	printf("*********START*********\n");
-	printf("두 개의 정수 입력 : \n");
-}
+
+
+
+
+
+
+
 
 
 
@@ -54,8 +40,9 @@ int test(int i1, int i2)
 
 int main()
 {
-	int t1;
-	int t2;
+	int t1 = 100;
+	int t2 = 200;
+	
 	char* p = "[%d][%d]\n";
 
 	t1 = test(5, 6);
